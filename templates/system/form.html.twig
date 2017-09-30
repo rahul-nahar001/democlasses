@@ -1,0 +1,24 @@
+{#
+/**
+ * @file
+ * Default theme implementation for a 'form' element.
+ *
+ * Available variables
+ * - attributes: A list of HTML attributes for the wrapper element.
+ * - children: The child elements of the form.
+ *
+ * @see template_preprocess_form()
+ *
+ * @ingroup themeable
+ */
+#}
+<section class="bg-gray wow padding-five">
+            <div class="container">
+                <div class="row">
+<div class="col-md-5 col-sm-8 col-xs-11 center-col xs-no-padding">
+<form{{ attributes }}>
+  {{ children }}
+</form>
+</div>
+</div></div>
+</section>

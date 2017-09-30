@@ -1676,7 +1676,7 @@ nav *{transition-timing-function:none;-moz-transition-timing-function:none;-webk
 .nd-test-detail-tile:hover{
 	background-color: #f4f4f4;
 }
-.nd-test-detail-tile label{
+.nd-test-detail-tile span{
 	float: left;
 	width: 50% !important;
 	margin: 0;

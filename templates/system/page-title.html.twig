@@ -1,0 +1,31 @@
+{#
+/**
+ * @file
+ * Default theme implementation for page titles.
+ *
+ * Available variables:
+ * - title_attributes: HTML attributes for the page title element.
+ * - title_prefix: Additional output populated by modules, intended to be
+ *   displayed in front of the main title tag that appears in the template.
+ * - title: The page title, for use in the actual content.
+ * - title_suffix: Additional output populated by modules, intended to be
+ *   displayed after the main title tag that appears in the template.
+ *
+ * @ingroup templates
+ *
+ * @see template_preprocess_page_title()
+ */
+#}
+{% if title %}
+<section class="content-top-margin page-title page-title-small bg-black">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-md-7 col-sm-12 wow fadeInUp animated animated animated">
+                        <!-- page title -->
+                        <h1{{ title_attributes.addClass('page-header', 'white-text') }}>{{ title }}</h1>
+                        <!-- end page title -->
+                    </div>
+                </div>
+            </div>
+        </section>
+{% endif %}

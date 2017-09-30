@@ -1,7 +1,41 @@
 global-styling:
   css:
     theme:
+      css/et-line-icons.css: {}
+      css/font-awesome.min.css: {}
+      css/extralayers.css: {}
+      css/magnific-popup.css: {}
+      css/owl.carousel.css: {}
+      css/owl.transitions.css: {}
+      css/full-slider.css: {}
+      css/menu-hamburger.css: {}
       css/style.css: {}
+      css/responsive.css: {}
+  # js:
+  #   js/jquery.min.js: {}
+  #   js/modernizr.js: {}
+  #   js/jquery.easing.1.3.js: {}
+  #   js/skrollr.min.js: {}
+  #   js/smooth-scroll.js: {}
+  #   js/jquery.appear.js: {}
+  #   js/wow.min.js: {}
+  #   js/page-scroll.js: {}
+  #   js/jquery.easypiechart.js: {}
+  #   js/jquery.parallax-1.1.3.js: {}
+  #   js/jquery.isotope.min.js: {}
+  #   js/owl.carousel.min.js: {}
+  #   js/jquery.magnific-popup.min.js: {}
+  #   js/popup-gallery.js: {}
+  #   js/text-effect.js: {}
+  #   js/jquery.tools.min.js: {}
+  #   js/jquery.revolution.js: {}
+  #   js/counter.js: {}
+  #   js/jquery.countTo.js: {}
+  #   js/jquery.fitvids.js: {}
+  #   js/imagesloaded.pkgd.min.js: {}
+  #   js/classie.js: {}
+  #   js/hamburger-menu.js: {}
+  #   js/main.js: {}
 
 bootstrap-scripts:
   js:
@@ -13,7 +47,7 @@ bootstrap-scripts:
     bootstrap/assets/javascripts/bootstrap/dropdown.js: {}
     bootstrap/assets/javascripts/bootstrap/modal.js: {}
     bootstrap/assets/javascripts/bootstrap/tooltip.js: {}
-    bootstrap/assets/javascripts/bootstrap/popover.js: {}
+    #bootstrap/assets/javascripts/bootstrap/popover.js: {}
     bootstrap/assets/javascripts/bootstrap/scrollspy.js: {}
     bootstrap/assets/javascripts/bootstrap/tab.js: {}
     bootstrap/assets/javascripts/bootstrap/transition.js: {}
