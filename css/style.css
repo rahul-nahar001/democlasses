@@ -459,7 +459,7 @@ nav .container{display:table-cell;vertical-align:middle;height:80px;position:rel
 .page-title:hover .separator-line{width:80px;-webkit-transition:all 400ms ease-in-out;-moz-transition:all 400ms ease-in-out;-o-transition:all 400ms ease-in-out;-ms-transition:all 400ms ease-in-out;transition:all 400ms linear;}
 .page-title-shop h1{font-size:35px !important;}
 .page-title-small{padding:40px 0}
-.page-title-small h1{margin-bottom:0;font-size:18px;line-height:23px}
+.page-title-small h1,.page-title-small h1 span{margin-bottom:0;font-size:18px;line-height:23px}
 .page-title-small .breadcrumb{margin-top:0;}
 .features-section{margin-bottom:80px;float:left}
 .features-section .col-xs-3{width:20%}
@@ -1801,4 +1801,12 @@ div[class^="nd-question-"]{
   stroke: #4caf50;
   stroke-width: 32;
   /*stroke-dasharray: 38 100;  for 38% */
+}
+
+#block-homeslider,
+#block-footerbottom,
+#block-footermid,
+.page-node-type-page nav+section,
+.path-user nav+section{
+	padding: 0 !important;
 }

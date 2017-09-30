@@ -133,11 +133,11 @@
           page.sidebar_first and page.sidebar_second ? 'col-sm-6',
           page.sidebar_first and page.sidebar_second is empty ? 'col-sm-9',
           page.sidebar_second and page.sidebar_first is empty ? 'col-sm-9',
-          page.sidebar_first is empty and page.sidebar_second is empty ? 'col-md-12 col-sm-12'
+          page.sidebar_first is empty and page.sidebar_second is empty ? 'no-padding'
         ]
     %}
     <section{{ content_attributes.addClass(content_classes) }}>
-       {# <div class="container">#}
+       <div class="container-fluid">
             <div class="row">
                 {# Highlighted #}
                 {% if page.highlighted %}
@@ -173,7 +173,7 @@
                     {{ page.content }}
                 {% endblock %}
             </div>
-        {#</div>#}
+        </div>
     </section>
 
     {# Sidebar Second #}
@@ -190,7 +190,7 @@
 
 {% if page.footer %}
     {% block footer %}
-        <footer>
+        <footer class="footer" role="contentinfo">
             {{ page.footer }}
         </footer>
     {% endblock %}
